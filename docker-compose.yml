@@ -1,0 +1,7 @@
+version: '3'
+services:
+  bot:
+    build: .
+    volumes:
+      - './rikka:/home/app/rikka'
+    command: python rikkabot.py

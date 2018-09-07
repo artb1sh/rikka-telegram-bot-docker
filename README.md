@@ -23,7 +23,7 @@
 - `git clone https://github.com/artb1sh/rikka-telegram-bot-docker.git`
 - `cd rikka-telegram-bot-docker`
 - edit config.yml telegram_token for your token bot
-- chmod -R a+w userdata/
+- chmod a+w rikka/userdata/
 - `docker-compose up`
 
 Note that rikka-telegram-bot will run in development mode. Do not try to use this in production.

@@ -1,0 +1,205 @@
+keys:
+     telegram_token: =====key=====
+
+features:
+    gif:
+        enabled: true
+        commands: 
+            - gif
+        path: userdata/mp4/
+
+    glitch:
+        enabled: true
+        commands: 
+            - glitch
+        path: userdata/glitch/
+        extensions:
+            - .jpg
+            - .jpeg
+            - .png
+            - .bmp 
+            - .webp
+
+    google_search:
+        enabled: true
+        commands_image: 
+            - img
+        commands_video: 
+            - vid
+        google_dev_key: =====key=====
+        google_cse_id: =====key=====
+
+    graphs:
+        enabled: true
+        commands_activity:
+         - activity
+        commands_usage:
+         - usage
+        db_path: userdata/
+        path: userdata/graphs/
+        graph_logo: resources/graph_logo.jpg
+
+    instagram:
+        enabled: true
+        commands: 
+            - instagram
+            - ig
+        path: userdata/instagram/
+        extensions:
+            - .jpg
+            - .jpeg
+            - .png
+            - .bmp 
+            - .webp
+            - .svg
+            - .mp4
+            - .gif
+
+    jpeg:
+        enabled: true
+        commands:
+            - jpeg
+        path: userdata/jpeg/
+        extensions:
+            - .jpg
+            - .jpeg
+            - .png
+            - .bmp
+            - .webp
+
+    kek:
+        enabled: true
+        commands: 
+            - kek
+        path: userdata/kek/
+        extensions:
+            - .jpg
+            - .jpeg
+            - .png
+            - .bmp
+            - .webp
+
+    leetspeak:
+        enabled: true
+        commands: 
+            - leet
+        leet_dictionary: resources/leetdict.txt
+
+    lego:
+        enabled: true
+        commands: 
+            - lego
+        path: userdata/lego/
+        extensions:
+            - .jpg
+            - .jpeg
+            - .png
+            - .bmp
+            - .gif
+            - .webp
+
+    liquid:
+        enabled: true
+        commands: 
+            - liq
+        path: userdata/liquid/
+
+    logging:
+        enabled: true
+        path: userdata/
+
+    meme:
+        enabled: true
+        commands: 
+            - meme
+            - memos
+        path: userdata/meme/
+        fonts:
+            impact:
+                name: impact
+                path: resources/impact.ttf
+            lobster:
+                name: lobster
+                path: resources/lobster.ttf
+            comic:
+                name: comic
+                path: resources/comic.ttf
+        extensions:
+            - .jpg
+            - .jpeg
+            - .png
+            - .webp
+
+    nya:
+        enabled: true
+        commands: 
+            - nya
+        path: userdata/nya/
+        
+    palette:
+        enabled: true
+        commands:
+            - palette
+            - colors
+        path:
+            userdata/palette/
+        extensions:
+            - .jpg
+            - .jpeg
+            - .png
+            - .webp
+            - .bmp
+            - .gif
+
+    pcstat:
+        enabled: true
+        commands: 
+            - status
+
+    rate:
+        enabled: true
+        commands:
+            - rate
+
+    roll:
+        enabled: true
+        commands:
+            - roll
+
+    sticker_reply:
+        enabled: true
+        sticker_path: resources/kappa.webp
+        keywords:
+            - Kappa
+
+    toribash:
+        enabled: true
+        commands: 
+            - toribash
+
+    tts:
+        enabled: true
+        commands: 
+            - say
+        path: userdata/tts/
+
+    vk:
+        enabled: false
+        commands: 
+            - vk
+        path: userdata/vk/
+        channel: your_channel
+        vk_token: =====key=====
+        database: resources/whatever
+
+    yandere_search:
+        enabled: true
+        commands: 
+            - a
+            - yandere
+        path: userdata/yandere/
+        
+    zalgo:
+        enabled: true
+        commands:
+            - zalgo

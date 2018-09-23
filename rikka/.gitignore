@@ -1,7 +1,6 @@
 .git/
 .vscode/
-/userdata/
-rikka/userdata/
+userdata/
 impact.ttf
 comic.ttf
 lobster.ttf
@@ -12,7 +11,7 @@ test.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
-rikka/modules/*.py[cod]
+modules/*.py[cod]
 *.py[cod]
 modules/__pycache__/
 *$py.class

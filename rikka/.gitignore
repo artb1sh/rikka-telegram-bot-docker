@@ -1,6 +1,7 @@
 .git/
 .vscode/
 userdata/
+/rikka/userdata/
 impact.ttf
 comic.ttf
 lobster.ttf
@@ -14,6 +15,7 @@ __pycache__/
 modules/*.py[cod]
 *.py[cod]
 modules/__pycache__/
+/rikka/modules/__pycache__/
 *$py.class
 
 # C extensions

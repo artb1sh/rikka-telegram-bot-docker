@@ -12,13 +12,14 @@ opencv_python==3.4.0.12 \
 Pybooru==4.1.0 \
 telegram==0.0.1 \
 python_telegram_bot==11.1.0 \
-uptime==3.0.1 numpy==1.13.3 \
+uptime==3.0.1 \
+numpy==1.13.3 \
 requests==2.18.4 \
 matplotlib==2.1.1 \
 zalgo_text==0.6 \
 gTTS==1.2.2 \
 Pillow==5.2.0 \
 google_api_python_client==1.7.4 \
+scipy==1.1.0 \
 scikit_learn==0.19.1 \
-scipy \
 PyYAML==3.13
